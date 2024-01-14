@@ -14,6 +14,25 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "macos-clang-arm64"
+        },
+        {
+            "name": "GB",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/Users/piers/Documents/gbdk/bin/lcc",
+            "cStandard": "c23",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "compilerArgs": [
+                "-Wa-l ",
+                "-Wl-m ",
+                "-Wl-j"
+            ]
         }
     ],
     "version": 4
